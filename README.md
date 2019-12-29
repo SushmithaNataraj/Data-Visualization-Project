@@ -6,4 +6,4 @@ Project Website: https://ar-ambuj23.github.io/dataviz-project2019/
 
 Screen Cast: https://youtu.be/r_MHDTFqWzg
 
-Process Book: https://github.com/ar-ambuj23/dataviz-project2019/blob/master/documentation/Process%20Book%20-%20final.pdf
+Process Book: https://github.com/SushmithaNataraj/Data-Visualization-Project/blob/master/documentation/Process%20Book%20-%20final.pdf
