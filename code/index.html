@@ -1,0 +1,52 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Now You See Me</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet">
+    <script src="https://d3js.org/d3.v5.js"></script>
+    <script src="https://d3js.org/d3-force.v2.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/topojson/1.6.19/topojson.js"></script>
+
+</head>
+
+<body>
+
+<div class="container">
+    <div id="header">
+        <div>
+        <div class="header-text" style="text-align: center">Now You See Me</div>
+        <p><a href="about.html">About</a></p>
+            <p class = "alignAdjust"><a href="contact.html">Contact</a></p>
+            <div id="info-container" style = "text-align: center">Our tool aims to show different pollutant levels in the states of States. 
+                The data has been collected from <a href="https://www.kaggle.com/sogun3/uspollution" target="_blank">www.kaggle.com</a> We have data for four pollutants from 2000 to 2016. 
+                    NO2 and SO2 have AQI in Parts per Billion. 
+                    O3 and CO have AQI in Parts per Million. Click <a href="https://www.health.nsw.gov.au/environment/air/Pages/common-air-pollutants.aspx" target="_blank">here</a> to read about pollutants.</div>
+        </div>
+
+        <button id="coButton" class="selector"><span class="dot co"></span>Carbon Monoxide</button>
+        <button id="soButton" class="selector"><span class="dot so"></span>Sulpur Dioxide</button>
+        <button id="noButton" class="selector"><span class="dot no"></span>Nitrogen Dioxide</button>
+        <button id="o3Button" class="selector"><span class="dot o3"></span>Ozone</button>
+        <button id="stopButton" class="selector right">Stop</button>
+        <button id="playButton" class="selector right" title="Know more">Play</button>
+       
+
+        <hr class="light-hr">
+
+    </div>
+</div>
+
+<div class="view" id="SliderView"></div>
+<div class="view" id="MapView"></div>
+
+<script src="js/Map.js"></script>
+<script src="js/LineCharts.js"></script>
+<script src="js/Table.js"></script>
+<script src="js/HelperElements.js"></script>
+<script src="js/script.js"></script>
+</body>
+</html>
