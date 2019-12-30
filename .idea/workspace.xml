@@ -4,6 +4,7 @@
     <list default="true" id="0055d496-a606-4c49-8f86-adbaa1921927" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/code/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/code/about.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/code/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/code/contact.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/code/index.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -41,7 +42,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1577679445792</updated>
-      <workItem from="1577679447756" duration="161000" />
+      <workItem from="1577679447756" duration="426000" />
     </task>
     <servers />
   </component>
